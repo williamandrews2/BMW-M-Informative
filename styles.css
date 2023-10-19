@@ -65,3 +65,20 @@
     border-style: none;
 }
 
+#card-container {
+    padding-bottom: 80px;
+}
+
+#card-container h2 {
+    text-align: center;
+    padding: 40px;
+}
+
+#cards {
+    display: flex;
+    padding: 0px 70px;
+}
+
+.card {
+    padding: 0px 20px; 
+}
