@@ -105,3 +105,35 @@
 }
 
 /* Action section */
+#action {
+    display:flex;
+    background-color: #3882f6;
+    margin: 70px 80px;
+    padding: 40px 80px;
+    color: white;
+    border-radius: 10px;
+}
+
+#call-to-action h2 {
+    padding-bottom: 10px;
+}
+
+#call-to-action {
+    padding-left: 20px;
+}
+
+.btn-white {
+    border-radius: 20px;
+    color: white;
+    background-color: #3882f6;
+    border-style:solid;
+    border-color: white;
+    padding: 10px 40px;
+}
+
+#button-container {
+    /* Need to center this, causing issues */
+    display: inline-block;
+    text-align: center;
+}
+
