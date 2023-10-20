@@ -65,6 +65,8 @@
     border-style: none;
 }
 
+/* Card section */
+
 #card-container {
     padding-bottom: 80px;
 }
@@ -82,3 +84,24 @@
 .card {
     padding: 0px 20px; 
 }
+
+
+/* Quote section */
+#quote p {
+    text-align: center;
+    font-size:36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1f2937;
+}
+
+#quote h3 {
+    text-align: end;
+}
+
+#quote {
+    padding: 70px 80px;
+    background-color: #e5e7eb;
+}
+
+/* Action section */
