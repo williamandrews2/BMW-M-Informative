@@ -9,6 +9,11 @@
    display: flex;
 }
 
+#navbar img {
+    width: 120px;
+    height: auto;
+}
+
 #navbar h3{ /*This will change to a picture later*/
     display: inline-block;
     padding: 8px 0px;
@@ -19,6 +24,7 @@
     display: flex;
     padding: 10px 10px;
     margin-left: auto;
+    align-items: center;
 }
 
 #navbar li {
@@ -42,6 +48,7 @@
 #hero-text {
     width: 45vw;
     height: auto;
+    padding-right: 30px;
 }
 
 #hero-text h1 {
@@ -50,10 +57,16 @@
 
 #hero-text p {
     padding-bottom: 15px;
+    line-height: 25px;
 }
 
 #hero-image {
     width: 55vw;
+    height: auto;
+}
+
+#hero-image img {
+    width: 50vw;
     height: auto;
 }
 
@@ -74,17 +87,31 @@
 #card-container h2 {
     text-align: center;
     padding: 40px;
+    font-size: 40px;
 }
 
 #cards {
     display: flex;
     padding: 0px 70px;
+    justify-content: center;
 }
 
 .card {
     padding: 0px 20px; 
 }
 
+.card img {
+    width: 20vw;
+    height: auto;
+    border: none;
+}
+
+.card p {
+    text-align: center;
+    font-size: 32px;
+    padding: 10px 0px;
+    font-weight: bolder;
+}
 
 /* Quote section */
 #quote p {
@@ -132,8 +159,16 @@
 }
 
 #button-container {
-    /* Need to center this, causing issues */
     display: inline-block;
     text-align: center;
+    margin: auto;
+}
+
+#footer {
+    color: white;
+    background-color: #1f2937;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0px;
 }
 
